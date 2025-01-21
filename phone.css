@@ -1,0 +1,301 @@
+/* NavBar */
+
+.list {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 100%;
+    background: #1d1d1f;
+    opacity: 1;
+    transition: all 1s;
+    font-size: auto;
+    font-weight: auto;
+    text-align: left;
+    line-height: 5px;
+ 
+ }
+ #nav-bar ul li {
+     font-size: 28px;
+     width: 100%;
+     /* padding: 3px 38px 4px 38px; */
+ }
+ .menu-button, .checked {
+     display: block;
+ }
+ 
+ #check:checked ~ ul {
+     top: 44px;
+     bottom: 0%;
+ }
+#msg {
+    width: 100%;
+}
+ #msg p {
+    height: 120px;
+    width: 100%;
+    text-align: center;
+
+ }
+
+ /* Section-1 */
+
+ #section-1 {
+    background: url(./Photos/bq-phone/img1iphone16pro.jpg) no-repeat center/cover;
+    
+}
+#section-1 .h-primary a {
+    font-size: 30px;
+    
+}
+#section-1 .h-secondary a {
+    font-size: 15px;
+   
+}
+#section-1 .h-primary {
+    top: 5%;
+}
+#section-1 .h-secondary {
+    top: 10%;
+}
+
+/* Buttons */
+
+#section-1 .bottom {
+    bottom: 5%;
+}
+
+#section-1 .btn1 a {
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+#section-1 .btn2 a {
+    padding: 4px 10px;
+    font-size: 15px;
+    
+}
+
+/* Section-2 */
+
+#section-2 {
+    background: url(./Photos/bq-phone/img3iphone16.jpg) no-repeat center/cover;
+}
+#section-2 .h-primary a {
+    font-size: 30px;
+    
+}
+#section-2 .h-secondary a {
+    font-size: 15px;
+   
+}
+#section-2 .h-primary {
+    top: 5%;
+}
+#section-2 .h-secondary {
+    top: 10%;
+}
+
+/* Buttons */
+
+#section-2 .bottom {
+    bottom: 5%;
+}
+
+#section-2 .btn1 a {
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+#section-2 .btn2 a {
+    padding: 7px 15px;
+    font-size: 15px;
+    
+}
+
+/* Section-3 */
+
+#section-3 {
+    background: url(./Photos/bq-phone/img2mac-book.jpg) no-repeat center/cover;
+}
+#section-3 .h-primary a {
+    font-size: 30px;
+    
+}
+#section-3 .h-secondary a {
+    font-size: 15px;
+   
+}
+#section-3 .h-primary {
+    top: 5%;
+}
+#section-3 .h-secondary {
+    top: 10%;
+}
+
+/* Buttons */
+#section-3 .bottom .button {
+    top: 17%;
+}
+
+#section-3 .btn1 a {
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+#section-3 .btn2 a {
+    padding: 7px 15px;
+    font-size: 15px;
+    
+}
+
+#section-3 .bottom-most1 {
+    bottom: 10%;
+}
+
+#section-3 .bottom-most2 a {
+    bottom: 5%;
+}
+
+/* Section-4 */
+
+#section-4 {
+    flex-direction: column;
+}
+#section-4 .box {
+    width: 100%;
+}
+#section-4 .box1 {
+    background: url(./Photos/bq-phone/img4watch.jpg) no-repeat center/cover;
+}
+#section-4 .box1 .img-watch img {
+    height: 30px;
+    width: auto;
+}
+#section-4 .box2 {
+    background: url(./Photos/bq-phone/img5airpod.jpg) no-repeat center/cover;
+}
+#section-4 .h-primary a {
+    font-size: 30px;
+    
+}
+#section-4 .h-secondary a {
+    font-size: 15px;
+   
+}
+#section-4 .h-3 a {
+    font-size: 15px;
+}
+
+/* Section-5 */
+
+#section-5 {
+    flex-direction: column;
+}
+#section-5 .box {
+    width: 100%;
+}
+#section-5 .box1 {
+    background: url(./Photos/bq-phone/img6Macmini.jpg) no-repeat center/cover;
+}
+#section-5 .box1 .h-primary a {
+    font-size: 30px;
+    
+}
+#section-5 .box1 .h-secondary a {
+    font-size: 15px;
+   
+}
+/* box2 */
+#section-5 .box2 {
+    background: url(./Photos/bq-phone/img7imac.jpg) no-repeat center/cover;
+}
+#section-5 .box2 .h-primary a {
+    font-size: 30px;
+    
+}
+#section-5 .box2 .h-secondary a {
+    font-size: 15px;
+   
+}
+
+
+
+/* Section-6 */
+
+#section-6 {
+    flex-direction: column;
+}
+#section-6 .box {
+    width: 100%;
+}
+/* Box1 */
+#section-6 .box1 {
+    background: url(./Photos/bg-laptop/img8ipadmini.jpg) no-repeat center/cover;
+}
+#section-6 .box1 .h-primary a {
+    font-size: 30px;
+    
+}
+#section-6 .box1 .h-secondary a {
+    font-size: 15px;
+   
+}
+
+/* Box 2 */
+
+#section-6 .box2 .img-Tradein img {
+    height: 20px;
+    width: auto;
+}
+
+/* Slides */
+
+.mySwiper .slide1 {
+    background: url(./Photos/Slide2/slide1.jpg) no-repeat center/cover;
+}
+.mySwiper .slide2 {
+    background: url(./Photos/Slide2/slide2.jpg) no-repeat center/cover;
+}
+.mySwiper .slide3 {
+    background: url(./Photos/Slide2/slide3.jpg) no-repeat center/cover;
+}
+.mySwiper .slide4 {
+    background: url(./Photos/Slide2/slide4.jpg) no-repeat center/cover;
+}
+.mySwiper .slide5 {
+    background: url(./Photos/Slide2/slide5.jpg) no-repeat center/cover;
+}
+.mySwiper .slide6 {
+    background: url(./Photos/Slide2/slide6.jpg) no-repeat center/cover;
+}
+.mySwiper .slide7 {
+    background: url(./Photos/Slide2/slide7.jpg) no-repeat center/cover;
+}
+.mySwiper .slide8 {
+    background: url(./Photos/Slide2/slide8.jpg) no-repeat center/cover;
+}
+.mySwiper .slide9 {
+    background: url(./Photos/Slide2/slide9.jpg) no-repeat center/cover;
+}
+
+
+/* Footer */
+
+.foot .box2 {
+    display: none;
+}
+.footer-item {
+    width: 95%;
+    line-height: 1.3;
+}
+
+
+.foot .box4 {
+    flex-direction: column;
+    align-items: flex-start;
+}
