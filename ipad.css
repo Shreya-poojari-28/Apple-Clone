@@ -1,0 +1,174 @@
+
+/* NavBar */
+
+.list {
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: auto;
+   width: 100%;
+   position: fixed;
+   bottom: 100%;
+   background: #1d1d1f;
+   opacity: 1;
+   transition: all 1s;
+   font-size: auto;
+   font-weight: auto;
+   text-align: left;
+   line-height: 5px;
+
+}
+#nav-bar ul li {
+    font-size: 28px;
+    width: 100%;
+    /* padding: 3px 38px 4px 38px; */
+}
+.menu-button, .checked {
+    display: block;
+}
+
+#check:checked ~ ul {
+    top: 44px;
+    bottom: 0%;
+}
+
+/* Section-1 */
+
+#section-1 {
+    background: url(./Photos/bg-ipad/img1iphone16pro.jpg) no-repeat center/cover;
+}
+#section-1 .h-primary a {
+    font-size: 45px;
+}
+#section-1 .h-secondary a {
+    font-size: 25px;
+   
+}
+
+/* Section-2 */
+
+#section-2 {
+    background: url(./Photos/bg-ipad/img3iphone16.jpg) no-repeat center/cover;
+}
+#section-2 .h-primary a {
+    font-size: 45px;
+}
+#section-2 .h-secondary a {
+    font-size: 25px;
+   
+}
+
+/* Section-3 */
+
+#section-3 {
+    background: url(./Photos/bg-ipad/img2mac-book.jpg) no-repeat center/cover;
+}
+#section-3 .h-primary a {
+    font-size: 45px;
+}
+#section-3 .h-secondary a {
+    font-size: 25px;
+   
+}
+
+
+/* Section-4 */
+
+#section-4 .box {
+    height: 75vh;
+}
+
+/* Section-4 box1 */
+
+#section-4 .box1 {
+    background: url(./Photos/bg-ipad/img4watch.jpg) no-repeat center/cover;
+}
+#section-4 .box1 .img-watch img {
+    height: 50px;
+    width: auto;
+}
+
+/* Section-4 box2 */
+
+#section-4 .h-primary a {
+    font-size: 33px;
+}
+#section-4 .h-secondary a {
+    font-size: 17px;
+}
+#section-4 .h-3 a {
+    font-size: 17px;
+}
+
+/* Section-5 */
+
+#section-5 .box {
+    height: 75vh;
+}
+
+/* Section-5 box1 */
+
+#section-5 .box1 .h-primary a {
+    font-size: 30px;
+    line-height: 0;
+}
+
+#section-5 .box1 .h-secondary a {
+    font-size: 17px;
+}
+
+/* Section-5 box2 */
+
+#section-5 .box2 .h-primary a {
+    font-size: 30px;
+    line-height: 0;
+}
+#section-5 .box2 .h-secondary a {
+    font-size: 17px;
+}
+
+/* Section-6 */
+
+#section-6 .box {
+    height: 75vh;
+}
+
+/* Section-6 box1 */
+
+#section-6 .box1 .h-primary a {
+    font-size: 33px;
+    line-height: 0;
+}
+#section-6 .box1 .h-secondary a {
+    font-size: 17px;
+}
+
+/* Section-6 box2 */
+
+#section-6 .box2 .img-Tradein img {
+    height: 27px;
+    width: auto;
+}
+
+/* Swiper */
+
+.mySwiper {
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+/* Footer */
+
+.footer-item {
+    width: 95%;
+    line-height: 1.3;
+}
+
+
+.foot .box4 {
+    flex-direction: column;
+    align-items: flex-start;
+}
