@@ -1,2 +1,2 @@
-# Apple-Clone
-Responsive Apple website clone
+# Apple-Website
+Responsive Apple website 
